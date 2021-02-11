@@ -1,6 +1,6 @@
 AOS.init({
-   duration: 1500,
-   once: true
+   once: true,
+   duration: 1200
 });
 
 $("nav .menu").on("click", function () {
