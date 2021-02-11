@@ -64,7 +64,7 @@ h2 {
 .title::before {
    content: "";
    position: absolute;
-   bottom: -20%;
+   bottom: -28%;
    left: 50%;
    width: 170px;
    height: 3px;
@@ -75,7 +75,7 @@ h2 {
 .title::after {
    content: "O";
    position: absolute;
-   bottom: -35%;
+   bottom: -45%;
    left: 50%;
    padding: 0 10px;
    font-size: 16px;
@@ -154,6 +154,7 @@ canvas.particles-js-canvas-el {
 
 .Header {
    background-color: var(--c2);
+   overflow: hidden;
 }
 
 .Header .container {
@@ -538,7 +539,6 @@ footer .icon {
       font-size: 38px;
    }
 
-
    .Header .sosmed {
       padding-top: 0;
       flex-direction: column;
@@ -651,6 +651,10 @@ footer .icon {
    nav li {
       padding: 10px 0;
       font-size: 1rem;
+   }
+
+   .Header .sosmed {
+      flex-direction: row;
    }
 
    .Header img {
