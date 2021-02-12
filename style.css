@@ -659,7 +659,7 @@ footer .icon {
 
    .Header img {
       height: 80vh;
-      width: 40%;
+      width: auto;
    }
 
 }
