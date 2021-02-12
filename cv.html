@@ -7,17 +7,26 @@
    <link rel="icon" href="img/favicon.ico">
    <style>
       body {
-         background-color: #aaa;
+         background-color: #c9d6df;
          font-family: Arial, Helvetica, sans-serif;
          line-height: 1.5rem;
          font-size: .95rem;
+         position: relative;
+      }
+
+      canvas.particles-js-canvas-el {
+         position: absolute;
+         top: 0;
+         left: 0;
       }
 
       .container {
          width: 60%;
-         background-color: #f5f5f5;
+         background-color: #f0f5f9;
          margin: 10px auto;
          border: 1px solid black;
+         position: relative;
+         z-index: 1;
       }
 
       .box {
@@ -64,11 +73,11 @@
    </style>
 </head>
 
-<body>
+<body id="Header">
    <div class="container">
 
       <!-- => Header -->
-      <section class="Header" id="Header">
+      <section class="Header">
          <div class="box">
             <img src="img/mhjr.png" alt="Sulton Muhajir">
             <h2>CURRICULUM VITAE</h2>
@@ -77,7 +86,7 @@
 
 
       <!-- => Data Pribadi -->
-      <section class="Data" id="Data">
+      <section class="Data">
          <pre class="title">DATA PRIBADI</pre>
          <div class="box">
             <div class="left">
@@ -97,7 +106,7 @@
 
 
       <!-- => Riwayat Sekolah -->
-      <section class="Sekolah" id="Sekolah">
+      <section class="Sekolah">
          <pre class="title">RIWAYAT SEKOLAH</pre>
          <div class="card">
             <pre>       I. SD Negri Arosbaya 3</pre>
@@ -114,7 +123,7 @@
 
 
       <!-- => Pendidikan Tinggi -->
-      <section class="Univ" id="Univ">
+      <section class="Univ">
          <pre class="title">PENDIDIKAN TINGGI</pre>
          <div class="box">
             <div class="left">
@@ -144,7 +153,7 @@
 
 
       <!-- => Keahlian -->
-      <section class="Keahlian" id="Keahlian">
+      <section class="Keahlian">
          <pre class="title">KEAHLIAN</pre>
          <div class="box">
             <div class="left">
@@ -162,7 +171,7 @@
 
 
       <!-- => Quote -->
-      <section class="Quote" id="Quote">
+      <section class="Quote">
          <pre class="title">QUOTE</pre>
          <div class="box">
             <pre>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</pre>
@@ -170,6 +179,17 @@
       </section>
 
    </div>
+
+
+   <script src="js/particles.js"></script>
+   <script src="js/app.js"></script>
+   <script>
+      const win = window.innerHeight;
+      const doc = document.body.clientHeight;
+      if (win > doc) {
+         document.body.style.height = "100vh";
+      }
+   </script>
 </body>
 
 </html>
