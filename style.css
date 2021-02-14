@@ -211,6 +211,7 @@ canvas.particles-js-canvas-el {
    margin-right: 40px;
    font-size: 1.5rem;
    color: var(--c4);
+   width: max-content;
 }
 
 .Header img {
