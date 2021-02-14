@@ -150,11 +150,3 @@ document.querySelector(".Skills button").addEventListener("click", function () {
       'info'
    )
 });
-
-document.querySelector(".Project .comm").addEventListener("click", function () {
-   Swal.fire(
-      'Coming Soon',
-      '',
-      'info'
-   )
-});
