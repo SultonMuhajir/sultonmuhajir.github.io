@@ -235,15 +235,10 @@ canvas.particles-js-canvas-el {
    align-items: center;
 }
 
-.About .image {
-   display: flex;
-   justify-self: center;
-}
-
 .About img {
    width: 350px;
    border-radius: 8px;
-   margin: auto;
+   justify-self: center;
 }
 
 .About .text {
