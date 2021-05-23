@@ -624,7 +624,7 @@ footer .icon {
 
 
    .Header img {
-      width: 65%;
+      width: 70%;
    }
 
    .Services .hide-content,
@@ -635,7 +635,7 @@ footer .icon {
 
 @media (max-width: 430px) {
    .Header img {
-      width: 80%;
+      width: 85%;
    }
 
    .About img {
