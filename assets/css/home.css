@@ -92,7 +92,7 @@ h2 {
 
 
 
-/* => Navbar */
+/* Navbar */
 nav {
    position: fixed;
    top: 0;
@@ -145,7 +145,7 @@ nav span {
 
 
 
-/* => Header */
+/* Header */
 canvas.particles-js-canvas-el {
    position: absolute;
    left: 0;
@@ -225,7 +225,7 @@ canvas.particles-js-canvas-el {
 
 
 
-/* => About */
+/* About */
 .About {
    background-color: var(--c1);
 }
@@ -247,7 +247,7 @@ canvas.particles-js-canvas-el {
 
 
 
-/* => Services */
+/* Services */
 .Services {
    background-color: var(--c2);
 }
@@ -291,7 +291,7 @@ canvas.particles-js-canvas-el {
 
 
 
-/* => Skills */
+/* Skills */
 .Skills {
    background-color: var(--c1);
 }
@@ -357,7 +357,7 @@ canvas.particles-js-canvas-el {
 
 
 
-/* => Project */
+/* Project */
 .Project {
    background-color: var(--c2);
 }
@@ -412,7 +412,7 @@ canvas.particles-js-canvas-el {
 
 
 
-/* => Contact */
+/* Contact */
 .Contact {
    background-color: var(--c1);
 }
@@ -470,7 +470,7 @@ canvas.particles-js-canvas-el {
 
 
 
-/* => Footer */
+/* Footer */
 footer {
    background-color: var(--c4);
    color: var(--c1);
@@ -508,7 +508,7 @@ footer .icon {
 
 
 
-/* => Media Queries */
+/* Media Queries */
 @media (max-width: 992px) {
    nav ul {
       width: 52%;
@@ -667,7 +667,7 @@ footer .icon {
 
 
 
-/* => Action */
+/* Action */
 nav .ulAction {
    transform: translateX(0%);
 }

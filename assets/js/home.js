@@ -22,7 +22,7 @@ $("nav li a").on("click", function () {
 
 
 
-// => Form Validation
+// Form Validation
 function validation() {
    const alp = /^[a-zA-Z ]+$/;
    const num = /^[0-9]+$/;
@@ -142,7 +142,7 @@ function validation() {
 
 
 
-// => Sweet Alert
+// Sweet Alert
 document.querySelector(".Skills button").addEventListener("click", function () {
    Swal.fire(
       'Under Construction',
